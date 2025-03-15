@@ -25,7 +25,7 @@ registerSW()
                 frm.style.margin = "0";
                 frm.referrerpolicy = "no-referrer";
                 frm.allow = "fullscreen";
-                frm.src = __uv$config.prefix + __uv$config.encodeUrl(destination);
+                frm.src = 'https://cdn.maigec.cl' + __uv$config.prefix + __uv$config.encodeUrl(destination);
                 win.document.body.appendChild(frm);
 
   })
